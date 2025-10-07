@@ -1,0 +1,20 @@
+To: kmudur33@gmail.com
+Subject: ScholarHub - Password Reset Request
+Headers: From: scholarhub517@gmail.com
+Reply-To: scholarhub517@gmail.com
+X-Mailer: PHP/8.0.30
+Date: 2025-05-09 16:20:14
+----------------------------------------
+Hello karuna,
+
+We received a request to reset your password. If you did not make this request, please ignore this email.
+
+To reset your password, please click the link below:
+
+http://localhost/DEMO/reset-password.php?token=71ac2a01eb921ef2ddc0959451c83399afc2b44767bcbc906d62d9623af8576c
+
+This link will expire in 1 hour.
+
+Best regards,
+ScholarHub Team
+----------------------------------------

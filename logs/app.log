@@ -1,0 +1,97 @@
+[2025-05-23 11:40:32] [ERROR] PHP Error: session_destroy(): Trying to destroy uninitialized session in C:\xampp\htdocs\DEMO\logout.php on line 23 {"severity":2}
+[2025-05-23 11:41:58] [ERROR] PHP Error: Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\DEMO\admin\settings.php on line 24 {"severity":8192}
+[2025-05-23 11:51:24] [ERROR] PHP Error: Undefined variable $additional_info in C:\xampp\htdocs\DEMO\apply-scholarship.php on line 129 {"severity":2}
+[2025-05-23 11:54:08] [INFO] User Activity: Password reset requested {"user_id":null,"email":"kiranmudur99@gmail.com"}
+[2025-05-23 11:54:13] [INFO] User Activity: Password reset requested {"user_id":null,"email":"kiranmudur99@gmail.com"}
+[2025-05-23 12:14:41] [ERROR] PHP Error: Constant FILTER_SANITIZE_STRING is deprecated in C:\xampp\htdocs\DEMO\admin\settings.php on line 24 {"severity":8192}
+[2025-05-23 15:40:04] [WARNING] Security Event: Failed login attempt {"username":"kiran"}
+[2025-05-23 16:27:43] [ERROR] PHP Error: Undefined variable $additional_info in C:\xampp\htdocs\ScholarHub\DEMO\apply-scholarship.php on line 129 {"severity":2}
+[2025-05-23 22:15:51] [WARNING] Security Event: CSRF token validation failed 
+[2025-05-25 12:07:17] [ERROR] PHP Error: session_destroy(): Trying to destroy uninitialized session in C:\xampp\htdocs\ScholarHub\DEMO\logout.php on line 23 {"severity":2}
+[2025-05-25 12:07:45] [ERROR] PHP Error: session_destroy(): Trying to destroy uninitialized session in C:\xampp\htdocs\ScholarHub\DEMO\logout.php on line 23 {"severity":2}
+[2025-05-29 15:25:48] [ERROR] PHP Error: session_destroy(): Trying to destroy uninitialized session in C:\xampp\htdocs\ScholarHub\DEMO\logout.php on line 23 {"severity":2}
+[2025-05-29 15:27:45] [ERROR] PHP Error: session_destroy(): Trying to destroy uninitialized session in C:\xampp\htdocs\ScholarHub\DEMO\logout.php on line 23 {"severity":2}
+[2025-05-29 19:25:18] [ERROR] PHP Error: session_destroy(): Trying to destroy uninitialized session in C:\xampp\htdocs\ScholarHub\DEMO\logout.php on line 23 {"severity":2}
+[2025-05-29 19:27:24] [INFO] User Activity: Password reset requested {"user_id":null,"email":"kiranmudur99@gmail.com"}
+[2025-06-02 10:33:43] [INFO] User Activity: Password reset requested {"user_id":null,"email":"kiranmudur99@gmail.com"}
+[2025-06-02 11:08:27] [INFO] User Activity: Password reset requested {"user_id":null,"email":"kiranmudur99@gmail.com"}
+[2025-06-02 11:13:31] [ERROR] PHP Error: session_destroy(): Trying to destroy uninitialized session in C:\xampp\htdocs\COPY\ScholarHub\DEMO\logout.php on line 23 {"severity":2}
+[2025-06-02 15:34:58] [INFO] User Activity: Password reset requested {"user_id":null,"email":"kiranmudur99@gmail.com"}
+[2025-06-02 15:41:58] [INFO] User Activity: Password reset requested {"user_id":null,"email":"kiranmudur99@gmail.com"}
+[2025-06-02 15:46:16] [INFO] User Activity: Password reset requested {"user_id":null,"email":"kiranmudur99@gmail.com"}
+[2025-06-02 15:49:58] [INFO] User Activity: Password reset requested {"user_id":null,"email":"kiranmudur99@gmail.com"}
+[2025-06-02 15:50:40] [INFO] User Activity: Password reset requested {"user_id":null,"email":"kiranmudur99@gmail.com"}
+[2025-06-02 15:56:47] [INFO] User Activity: Password reset requested {"user_id":null,"email":"kiranmudur99@gmail.com"}
+[2025-06-02 15:59:26] [INFO] User Activity: Password reset requested {"user_id":null,"email":"kiranmudur99@gmail.com"}
+[2025-06-02 16:06:56] [WARNING] Security Event: Password reset requested for email: kiranmudur99@gmail.com 
+[2025-06-02 16:13:06] [WARNING] Security Event: Password reset requested for email: kiranmudur99@gmail.com 
+[2025-06-02 16:14:34] [WARNING] Security Event: Password reset requested for email: kiranmudur99@gmail.com 
+[2025-06-02 16:16:53] [WARNING] Security Event: Password reset requested for email: kiranmudur99@gmail.com 
+[2025-06-02 16:20:30] [ERROR] PHP Error: session_destroy(): Trying to destroy uninitialized session in C:\xampp\htdocs\COPY\ScholarHub\DEMO\logout.php on line 23 {"severity":2}
+[2025-06-02 16:23:17] [WARNING] Security Event: Password reset requested for email: kiranmudur99@gmail.com 
+[2025-06-02 16:29:19] [WARNING] Security Event: Password reset requested for email: kiranmudur99@gmail.com 
+[2025-06-02 16:29:51] [WARNING] Security Event: Password reset completed for user ID: 1 
+[2025-06-02 16:30:01] [WARNING] Security Event: Invalid reset token used: d510d08ca8... 
+[2025-06-02 16:30:13] [WARNING] Security Event: Password reset requested for email: kiranmudur99@gmail.com 
+[2025-06-02 16:30:42] [WARNING] Security Event: Password reset completed for user ID: 1 
+[2025-06-02 16:31:32] [ERROR] PHP Error: session_destroy(): Trying to destroy uninitialized session in C:\xampp\htdocs\COPY\ScholarHub\DEMO\logout.php on line 23 {"severity":2}
+[2025-06-02 16:43:27] [ERROR] PHP Error: session_destroy(): Trying to destroy uninitialized session in C:\xampp\htdocs\COPY\ScholarHub\DEMO\logout.php on line 23 {"severity":2}
+[2025-06-02 16:50:16] [ERROR] PHP Error: session_destroy(): Trying to destroy uninitialized session in C:\xampp\htdocs\COPY\ScholarHub\DEMO\logout.php on line 23 {"severity":2}
+[2025-06-02 17:11:23] [ERROR] PHP Error: session_destroy(): Trying to destroy uninitialized session in C:\xampp\htdocs\COPY\ScholarHub\DEMO\logout.php on line 23 {"severity":2}
+[2025-06-02 17:13:46] [WARNING] Security Event: Password reset requested for email: kiranmudur99@gmail.com 
+[2025-06-02 17:18:13] [WARNING] Security Event: Password reset requested for email: kiranmudur99@gmail.com 
+[2025-06-02 17:21:20] [WARNING] Security Event: Password reset requested for email: kiranmudur99@gmail.com 
+[2025-06-02 17:27:00] [WARNING] Security Event: Password reset requested for email: kiranmudur99@gmail.com 
+[2025-06-02 17:27:21] [WARNING] Security Event: Password reset completed for user ID: 1 
+[2025-06-02 17:35:03] [ERROR] PHP Error: Undefined variable $additional_info in C:\xampp\htdocs\ScholarHub\apply-scholarship.php on line 129 {"severity":2}
+[2025-06-02 17:35:34] [ERROR] PHP Error: session_destroy(): Trying to destroy uninitialized session in C:\xampp\htdocs\ScholarHub\logout.php on line 23 {"severity":2}
+[2025-06-02 22:09:19] [ERROR] PHP Error: session_destroy(): Trying to destroy uninitialized session in C:\xampp\htdocs\ScholarHub\logout.php on line 23 {"severity":2}
+[2025-06-03 06:56:59] [ERROR] Error: Call to undefined method Logger::logError() in C:\xampp\htdocs\ScholarHub\admin\process_forgot_password.php:76
+Stack trace:
+#0 {main} 
+[2025-06-03 06:57:06] [ERROR] Error: Call to undefined method Logger::logError() in C:\xampp\htdocs\ScholarHub\admin\process_forgot_password.php:76
+Stack trace:
+#0 {main} 
+[2025-06-03 07:00:27] [ERROR] Error: Call to undefined method Logger::logError() in C:\xampp\htdocs\ScholarHub\admin\process_forgot_password.php:76
+Stack trace:
+#0 {main} 
+[2025-06-03 07:02:48] [ERROR] Error: Call to undefined method Logger::logError() in C:\xampp\htdocs\ScholarHub\admin\process_forgot_password.php:76
+Stack trace:
+#0 {main} 
+[2025-06-03 07:02:53] [ERROR] Error: Call to undefined method Logger::logError() in C:\xampp\htdocs\ScholarHub\admin\process_forgot_password.php:76
+Stack trace:
+#0 {main} 
+[2025-06-03 07:02:54] [ERROR] Error: Call to undefined method Logger::logError() in C:\xampp\htdocs\ScholarHub\admin\process_forgot_password.php:76
+Stack trace:
+#0 {main} 
+[2025-06-03 07:02:57] [ERROR] Error: Call to undefined method Logger::logError() in C:\xampp\htdocs\ScholarHub\admin\process_forgot_password.php:76
+Stack trace:
+#0 {main} 
+[2025-06-03 07:03:06] [ERROR] Error: Call to undefined method Logger::logError() in C:\xampp\htdocs\ScholarHub\admin\process_forgot_password.php:76
+Stack trace:
+#0 {main} 
+[2025-06-03 07:03:18] [ERROR] Error: Call to undefined method Logger::logError() in C:\xampp\htdocs\ScholarHub\admin\process_forgot_password.php:76
+Stack trace:
+#0 {main} 
+[2025-06-03 07:08:14] [ERROR] Error: Call to undefined method Logger::logError() in C:\xampp\htdocs\ScholarHub\admin\process_forgot_password.php:121
+Stack trace:
+#0 {main} 
+[2025-06-03 07:08:17] [ERROR] Error: Call to undefined method Logger::logError() in C:\xampp\htdocs\ScholarHub\admin\process_forgot_password.php:121
+Stack trace:
+#0 {main} 
+[2025-06-03 07:15:10] [ERROR] Error: Call to undefined method Logger::logInfo() in C:\xampp\htdocs\ScholarHub\admin\process_forgot_password.php:29
+Stack trace:
+#0 {main} 
+[2025-06-03 07:17:43] [ERROR] Error: Call to undefined method Logger::logInfo() in C:\xampp\htdocs\ScholarHub\admin\process_forgot_password.php:32
+Stack trace:
+#0 {main} 
+[2025-06-03 07:24:33] [WARNING] Security Event: Password reset email sent successfully for admin: admin 
+[2025-06-03 07:25:57] [WARNING] Security Event: Password reset completed for admin: admin 
+[2025-06-03 09:25:17] [WARNING] Security Event: Password reset email sent successfully for admin: admin 
+[2025-06-03 09:25:58] [WARNING] Security Event: Password reset completed for admin: admin 
+[2025-06-03 09:27:36] [WARNING] Security Event: Password reset requested for email: kiranmudur99@gmail.com 
+[2025-06-03 09:28:07] [WARNING] Security Event: Password reset completed for user ID: 1 
+[2025-06-03 10:40:53] [WARNING] Security Event: Invalid admin reset token used: 76ce0c27aa... 
+[2025-06-03 12:50:13] [WARNING] Security Event: Failed login attempt {"username":"kiran"}
+[2025-06-03 12:52:16] [ERROR] PHP Error: Undefined variable $additional_info in C:\xampp\htdocs\ScholarHub\apply-scholarship.php on line 129 {"severity":2}
+[2025-06-03 12:52:25] [ERROR] PHP Error: session_destroy(): Trying to destroy uninitialized session in C:\xampp\htdocs\ScholarHub\logout.php on line 23 {"severity":2}

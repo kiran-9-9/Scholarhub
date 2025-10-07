@@ -1,0 +1,20 @@
+To: kmudur33@gmail.com
+Subject: Scholarship Portal - Password Reset Request
+Headers: From: noreply@scholarship.com
+Reply-To: noreply@scholarship.com
+X-Mailer: PHP/8.0.30
+Date: 2025-05-09 16:01:44
+----------------------------------------
+Hello karuna,
+
+We received a request to reset your password. If you did not make this request, please ignore this email.
+
+To reset your password, please click the link below:
+
+http://localhost/DEMO/reset-password.php?token=96e56fb1880cc715565307c5ea88b79ce44428e4147658ab66241e222bcae0fa
+
+This link will expire in 1 hour.
+
+Best regards,
+Scholarship Portal Team
+----------------------------------------

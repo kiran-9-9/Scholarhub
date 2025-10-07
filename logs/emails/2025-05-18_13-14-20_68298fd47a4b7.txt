@@ -1,0 +1,21 @@
+To: kiranmudur99@gmail.com
+From: ScholarHub <scholarhub517@gmail.com>
+Subject: ScholarHub - Password Reset Request
+Date: 2025-05-18 13:14:20
+Format: Plain Text
+Sending Method: SMTP
+SMTP Host: smtp.gmail.com:587
+----------------------------------------
+Hello kiran,
+
+We received a request to reset your password. If you did not make this request, please ignore this email.
+
+To reset your password, please click the link below:
+
+http://localhost/DEMO/reset-password.php?token=94f457f89b5878f07dad7b375ab3964e5605fac03ab3ba42f4f4819402bf94d0
+
+This link will expire in 24 hours.
+
+Best regards,
+ScholarHub Team
+----------------------------------------

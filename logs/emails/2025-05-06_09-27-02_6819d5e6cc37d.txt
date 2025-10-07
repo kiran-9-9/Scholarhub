@@ -1,0 +1,18 @@
+To: kiranmudur99@gmail.com
+Subject: Scholarship Portal - Email Verification
+Headers: From: noreply@scholarship.com
+Reply-To: noreply@scholarship.com
+X-Mailer: PHP/8.0.30
+Date: 2025-05-06 09:27:02
+----------------------------------------
+Hello kiran,
+
+Thank you for registering. Please click the link below to verify your email address:
+
+http://localhost/DEMO/verify-email.php?token=fc7b5ff4258de59432b9bf42712228b4e09d84df385eb86e7e78dae916e69e09
+
+This link will expire in 24 hours.
+
+Best regards,
+Scholarship Portal Team
+----------------------------------------

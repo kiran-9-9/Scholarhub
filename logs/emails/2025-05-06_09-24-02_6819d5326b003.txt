@@ -1,0 +1,18 @@
+To: naveen@89mail.com
+Subject: Scholarship Portal - Email Verification
+Headers: From: noreply@scholarship.com
+Reply-To: noreply@scholarship.com
+X-Mailer: PHP/8.0.30
+Date: 2025-05-06 09:24:02
+----------------------------------------
+Hello naveen,
+
+Thank you for registering. Please click the link below to verify your email address:
+
+http://localhost/DEMO/verify-email.php?token=844b40b0c11dcce65bef5caba5e8adb7863b934846765e5f12966588a3a47dfc
+
+This link will expire in 24 hours.
+
+Best regards,
+Scholarship Portal Team
+----------------------------------------

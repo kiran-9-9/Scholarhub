@@ -1,0 +1,337 @@
+/* ScholarHub Responsive Design */
+
+/* Base responsive styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Make sure the body doesn't have overflow issues */
+body {
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+}
+
+/* Container responsive widths */
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Extra large devices (large desktops) */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+/* Large devices (desktops) */
+@media (max-width: 1199px) and (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+    
+    .dashboard-stats {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+    }
+}
+
+/* Medium devices (tablets) */
+@media (max-width: 991px) and (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+    
+    .sidebar {
+        width: 220px;
+    }
+    
+    .main-content {
+        margin-left: 220px;
+    }
+    
+    .application-form,
+    .dashboard-card,
+    .profile-container,
+    .table-container {
+        padding: 1.5rem;
+    }
+    
+    .dashboard-stats {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+}
+
+/* Small devices (landscape phones) */
+@media (max-width: 767px) {
+    .container {
+        max-width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    /* Navigation */
+    .navbar {
+        padding: 0 15px;
+        height: 70px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1000;
+        background: white;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    
+    .nav-links {
+        display: none;
+        position: fixed;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        background: white;
+        flex-direction: column;
+        padding: 10px 0;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        z-index: 1000;
+        max-height: calc(100vh - 70px);
+        overflow-y: auto;
+    }
+    
+    .nav-links.active {
+        display: flex;
+    }
+    
+    .nav-links a {
+        padding: 12px 15px;
+        width: 100%;
+        text-align: left;
+        border-bottom: 1px solid #f0f0f0;
+    }
+    
+    .hamburger {
+        display: flex !important;
+        cursor: pointer;
+        z-index: 1001;
+    }
+    
+    /* Layout */
+    .dashboard-container {
+        flex-direction: column;
+        margin-top: 70px;
+    }
+    
+    .sidebar {
+        position: fixed;
+        transform: translateX(-100%);
+        transition: transform 0.3s ease;
+        z-index: 999;
+        width: 260px;
+        max-width: 80%;
+        left: -260px;
+        top: 70px;
+        height: calc(100vh - 70px);
+        overflow-y: auto;
+    }
+    
+    .sidebar.active {
+        transform: translateX(0);
+        left: 0;
+    }
+    
+    .main-content {
+        margin-left: 0;
+        width: 100%;
+        max-width: 100%;
+        padding: 1rem;
+    }
+    
+    /* Tables */
+    .table-responsive {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+    
+    table {
+        min-width: 600px;
+    }
+    
+    /* Forms */
+    .form-row {
+        flex-direction: column;
+        margin: 0;
+    }
+    
+    .form-group {
+        width: 100% !important;
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+    
+    /* Cards and containers */
+    .dashboard-card,
+    .profile-container,
+    .application-form,
+    .table-container {
+        padding: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .dashboard-stats {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    /* Typography */
+    h1 {
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+        margin-bottom: 0.75rem;
+    }
+    
+    /* Buttons */
+    .btn {
+        width: 100%;
+        margin-bottom: 0.5rem;
+    }
+    
+    .btn-group {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    /* Modals */
+    .modal-dialog {
+        margin: 0.5rem;
+        max-width: calc(100% - 1rem);
+    }
+    
+    .modal-content {
+        padding: 1rem;
+    }
+    
+    /* Notifications */
+    .notification {
+        width: 100%;
+        max-width: 100%;
+        right: 0;
+        left: 0;
+        border-radius: 0;
+    }
+}
+
+/* Extra small devices (phones) */
+@media (max-width: 575px) {
+    .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .navbar {
+        height: 60px;
+        min-height: 60px;
+        padding: 0 10px;
+    }
+    
+    .nav-links {
+        top: 60px;
+    }
+    
+    .sidebar {
+        top: 60px;
+        height: calc(100vh - 60px);
+    }
+    
+    .dashboard-container {
+        margin-top: 60px;
+    }
+    
+    .logo h1 {
+        font-size: 1.2rem;
+    }
+    
+    .logo i {
+        font-size: 1.2rem;
+    }
+    
+    .modal-content {
+        padding: 0.75rem;
+    }
+    
+    .btn {
+        padding: 0.5rem 1rem;
+        font-size: 0.9rem;
+    }
+    
+    input, select, textarea {
+        font-size: 0.9rem;
+        padding: 0.5rem;
+    }
+    
+    table {
+        font-size: 0.9rem;
+    }
+    
+    th, td {
+        padding: 0.5rem;
+    }
+    
+    .activity-timeline {
+        padding-left: 1rem;
+    }
+    
+    .activity-item {
+        padding-left: 1.5rem;
+    }
+    
+    .activity-item::before {
+        left: 0;
+    }
+}
+
+/* Print styles */
+@media print {
+    .no-print {
+        display: none !important;
+    }
+    
+    .container {
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
+    }
+    
+    body {
+        font-size: 12pt;
+    }
+    
+    .main-content {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .card {
+        border: none;
+        box-shadow: none;
+    }
+} 
